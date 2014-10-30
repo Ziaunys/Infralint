@@ -1,7 +1,7 @@
 from infralint import Infralint
 environment = 'production'
 environments_root = '/etc/puppet/environments'
-repo_root = '/Users/ericzounes/Documents/werk/puppetlabs-modules'
+repo_root = '/path/to/puppet-modules'
 
 inf = Infralint(host='puppetdb.example.com:8080',
                 env_root=environments_root,
